@@ -1,4 +1,4 @@
-% ------------ STEP-UP ------------
+% ------------ STEP-DOWN ------------
 
 % 1.
 % L4, C4
@@ -8,16 +8,43 @@ T_1 = 112.4e-6;
 Uin_1 = 15;
 Iob_1 = 50e-3;
 Tgora_1 = [102.4, 84.8, 74.4, 63.6, 44.4, 27.6, 17.6, 12, 51.2]*10^(-6);
+Duty_1 = (Tgora_1/T_1)*100;
 Uout_1 = [13.42, 12.44, 11.96, 10.93, 8.36, 4.6, 2.03, 1.1, 9.4];
+
+prcg_1 = (90e-6/T_1)*100;
+
+figure(1)
+plot(Duty_1,Uout_1, 'LineStyle','none', 'Marker','x', 'MarkerSize',14)
+grid on
+ylabel("Napięcie wyjściowe [V]")
+xlabel("Wypełnienie [%]")
+title("Zależność napięcia wyjściowego od wypełnienia")
+text(12,12, {"I obciążenia = 50 mA ","U wejściowe = 15 V"}, 'FontSize',14)
+xline(prcg_1)
+text(50, 3,"  Prąd ciągły \rightarrow", "FontSize",14)
+
 
 % 2. 
 % L4, C4
 % Prąd ciągły 55.3mA ->
+
 Uin_2 = 15;
 T_2 = 112.4e-6;
 Tgora_2 = 83.2e-6;
+Duty_2 = (Tgora_2/T_2)*100;
+
 Uout_2 = [12.49, 12.33, 12.12, 11.89, 11.42, 10.67, 10.51, 10.38, 10.28];
-Iout_2 = [44.8, 49, 56.3, 65.1, 73.6, 86.8, 115.7, 154, 185.9]*10^(-3);
+Iout_2 = [44.8, 49, 56.3, 65.1, 73.6, 86.8, 115.7, 154, 185.9];%*10^(-3);
+
+figure(2)
+plot(Iout_2,Uout_2, 'LineStyle','none', 'Marker','x', 'MarkerSize',14)
+grid on
+ylabel("Napięcie wyjściowe [V]")
+xlabel("Prąd obciążenia [mA]")
+title("Zależność napięcia wyjścia od prądu obciążenia")
+text(120,12, {"Wypełnienie = 74 % ","U wejściowe = 15 V"}, 'FontSize',14)
+xline(55.3)
+text(57, 11,"Prąd ciągły \rightarrow", "FontSize",14)
 
 % 3.1
 % L4, C4
@@ -111,7 +138,7 @@ T_6 = 95.2e-6;
 Iout_6 = 60.5e-3;
 Uin_6 = 12;
 Tgora_6_1 = [14.4, 36, 64, 77.6, 86]*10^(-6);
-A_6_1 = [156, 284, 192, 156, 116]*10^(-3)
+A_6_1 = [156, 284, 192, 156, 116]*10^(-3);
 Uout_6_1 = [3.05, 9.58, 11.19, 11.44, 11.53];
 
 % 6.2
