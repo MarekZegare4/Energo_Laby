@@ -230,15 +230,15 @@ text(15, 78,{"Prąd obciążenia = 32.2 mA"},'FontSize',14)
 
 % 8.
 Uin_8 = 12;
-Iout_8 = [17.7, 22.6, 50.3, 72.9, 111.4]*10^(-3);
+Iout_8 = [17.7, 22.6, 50.3, 72.9, 111.4]%*10^(-3);
 Tgora_8 = [10.4, 13, 77.6, 84, 103]*10^(-6);
 T_8 = [16.9, 19.2, 124.4, 143, 188]*10^(-6);
 
 figure(8)
 plot(Iout_8, 100*Tgora_8./T_8, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(1))
-xlabel("Napięcie wejściowe [V]")
+xlabel("Prąd obciążenia [mA]")
 ylabel("Wspólczynnik wypełnienia [%]")
-title("Zależność wypełnienia od napięcia zasilania")
+title("Zależność wypełnienia od prądu obciążenia")
 grid on
 %legend("C1", "C4", "Location","northwest")
-text(15, 78,{"Prąd obciążenia = 32.2 mA"},'FontSize',14)
+text(60, 64,{"Napięcie zasilania = 12 V"},'FontSize',14)

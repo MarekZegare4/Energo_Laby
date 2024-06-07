@@ -9,14 +9,14 @@ clr = ["#D95319" "#EDB120" "#7E2F8E" "#77AC30" "#4DBEEE" "#A2142F"];
 T_1 = 112.4e-6;
 Uin_1 = 15;
 Iob_1 = 50e-3;
-Tgora_1 = [102.4, 84.8, 74.4, 63.6, 44.4, 27.6, 17.6, 12, 51.2]*10^(-6);
+Tgora_1 = sort([102.4, 84.8, 74.4, 63.6, 44.4, 27.6, 17.6, 12, 51.2]*10^(-6), "ascend");
 Duty_1 = (Tgora_1/T_1)*100;
-Uout_1 = [13.42, 12.44, 11.96, 10.93, 8.36, 4.6, 2.03, 1.1, 9.4];
+Uout_1 = sort([13.42, 12.44, 11.96, 10.93, 8.36, 4.6, 2.03, 1.1, 9.4], "ascend");
 
 prcg_1 = (90e-6/T_1)*100;
 
 figure(1)
-plot(Duty_1,Uout_1, 'LineStyle','none', 'Marker','x', 'MarkerSize',14)
+plot(Duty_1,Uout_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14)
 grid on
 ylabel("Napięcie wyjściowe [V]")
 xlabel("Wypełnienie [%]")
@@ -39,7 +39,7 @@ Uout_2 = [12.49, 12.33, 12.12, 11.89, 11.42, 10.67, 10.51, 10.38, 10.28];
 Iout_2 = [44.8, 49, 56.3, 65.1, 73.6, 86.8, 115.7, 154, 185.9];%*10^(-3);
 
 figure(2)
-plot(Iout_2,Uout_2, 'LineStyle','none', 'Marker','x', 'MarkerSize',14)
+plot(Iout_2,Uout_2, 'LineStyle','--', 'Marker','x', 'MarkerSize',14)
 grid on
 ylabel("Napięcie wyjściowe [V]")
 xlabel("Prąd obciążenia [mA]")
@@ -68,8 +68,8 @@ Duty_3_2 = 100*Tgora_3_2/T_3;
 % 3.3
 % Prąd ciągły 73.6mA ->
 Uout_3_3 = 4.2;
-Tgora_3_3 = [18.8, 29.4, 22.8, 24.8, 28, 30, 34, 38.8, 43.6, 45.6]*10^(-6);
-Iout_3_3 = [25.3, 17.9, 22.7, 28.11, 33.9, 38.3, 50.6, 65.4, 83.5, 108.8];%*10^(-3);
+Tgora_3_3 = sort([18.8, 29.4, 22.8, 24.8, 28, 30, 34, 38.8, 43.6, 45.6]*10^(-6), "ascend");
+Iout_3_3 = sort([25.3, 17.9, 22.7, 28.11, 33.9, 38.3, 50.6, 65.4, 83.5, 108.8], "ascend");%*10^(-3);
 Duty_3_3 = 100*Tgora_3_3/T_3;
 
 % 3.4
@@ -80,11 +80,11 @@ Iout_3_4 = [10.6, 14, 16.8, 20.7, 25.4, 35.9, 49.1, 63.7, 69.5, 103.9, 77.5];%*1
 Duty_3_4 = 100*Tgora_3_4/T_3;
 
 figure(3)
-plot(Duty_3_1,Iout_3_1, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(1))
+plot(Duty_3_1,Iout_3_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(1))
 hold on
-plot(Duty_3_2,Iout_3_2, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(2))
-plot(Duty_3_3,Iout_3_3, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(3))
-plot(Duty_3_4,Iout_3_4, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(4))
+plot(Duty_3_2,Iout_3_2, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(2))
+plot(Duty_3_3,Iout_3_3, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(3))
+plot(Duty_3_4,Iout_3_4, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(4))
 ylabel("Prąd obciążenia [mA]")
 xlabel("Wypełnienie [%]")
 title("Zależność prądu obciążenia od wypełnienia")
@@ -116,8 +116,8 @@ Uout_4_2 = [11.63, 11.55, 11.44, 11.22, 10.96, 10.65];
 % 4.3
 % L1, C3
 % Prąd nieciągły
-Iout_4_3 = [42, 50.6, 65.2, 82, 101.2, 144.7, 123.1];%*10^(-3);
-A_4_3 = [476, 552, 684, 836, 1000, 1400, 1230]*10^(-3);
+Iout_4_3 = sort([42, 50.6, 65.2, 82, 101.2, 144.7, 123.1], "ascend");%*10^(-3);
+A_4_3 = sort([476, 552, 684, 836, 1000, 1400, 1230]*10^(-3), "ascend");
 Uout_4_3 = [11.68, 11.61, 11.51, 11.39, 11.26, 10.96, 11.11];
 
 % 4.4
@@ -133,17 +133,17 @@ A_4_5 = [290, 320, 350, 374, 402, 412]*10^(-3);
 Uout_4_5 = [9.04, 8.36, 8.12, 8.05, 7.92, 7.85];
 
 figure(4)
-plot(Iout_4_5,100*A_4_5./Uout_4_5, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(1))
+plot(Iout_4_5,100*A_4_5./Uout_4_5, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(1))
 hold on
-plot(Iout_4_2,100*A_4_2./Uout_4_2, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(2))
-plot(Iout_4_3,100*A_4_3./Uout_4_3, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(3))
+plot(Iout_4_2,100*A_4_2./Uout_4_2, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(2))
+plot(Iout_4_3,100*A_4_3./Uout_4_3, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(3))
 %plot(Iout_4_4,100*A_4_4./Uout_4_4, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(4))
 xlabel("Prąd obciążenia [mA]")
 ylabel("Wspólczynnik tętnień [%]")
 grid on
 legend("C4", "C2","C3", "Location","northwest")
 title("Zależność współczynnika tętnień od prądu obciążenia")
-text(30,8,{"Wypełnienie = 73 %","Częstotliwość = 8,8 kHz"},'FontSize',14)
+text(30,10,{"Wypełnienie = 73 %","Częstotliwość = 8,8 kHz"},'FontSize',14)
 
 
 
