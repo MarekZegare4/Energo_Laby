@@ -140,10 +140,9 @@ plot(Iout_4_3,100*A_4_3./Uout_4_3, 'LineStyle','none', 'Marker','x', 'MarkerSize
 %plot(Iout_4_4,100*A_4_4./Uout_4_4, 'LineStyle','none', 'Marker','x', 'MarkerSize',14, 'Color',clr(4))
 xlabel("Prąd obciążenia [mA]")
 ylabel("Wspólczynnik tętnień [%]")
-title("Zależność współczynnika tętnień prądu obciążenia")
 grid on
 legend("C4", "C2","C3", "Location","northwest")
-title("Zależnośc współczynnika tętnień od prądu obciążenia")
+title("Zależność współczynnika tętnień od prądu obciążenia")
 text(30,8,{"Wypełnienie = 73 %","Częstotliwość = 8,8 kHz"},'FontSize',14)
 
 
@@ -183,12 +182,10 @@ plot(f_5_3,100*A_5_3./Uout_5_3, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10,
 plot(f_5_4,100*A_5_4./Uout_5_4, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(4))
 xlabel("Częstotliwość [kHz]")
 ylabel("Wspólczynnik tętnień [%]")
-title("Zależność współczynnika tętnień prądu obciążenia")
 grid on
 legend("C1", "C2","C3","C4", "Location","northwest")
-title("Zależnośc współczynnika tętnień od częstotliwości")
+title("Zależność współczynnika tętnień od częstotliwości")
 text(40,40,{"Prąd obciążenia = 73 mA"},'FontSize',14)
-
 
 
 % 6.1
@@ -204,4 +201,20 @@ Tgora_6_2 = [13.6, 30.4, 56, 76.8, 83.2]*10^(-6);
 A_6_2 = [1720, 3700, 2630, 1940, 1600]*10^(-3);
 Uout_6_2 = [3.7, 10.03, 11.43, 11.62, 11.66];
 
+figure(6)
+plot(100*Tgora_6_1/T_6,100*A_6_1./Uout_6_1, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(1))
+hold on
+plot(100*Tgora_6_2/T_6,100*A_6_2./Uout_6_2, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(2))
+xlabel("Wypełnienie [%]")
+ylabel("Wspólczynnik tętnień [%]")
+title("Zależność współczynnika tętnień od wypełnienia")
+grid on
+legend("C1", "C4", "Location","northwest")
+text(40,40,{"Prąd obciążenia = 60,5 mA", "Częstotliwość = 10,5 kHz", "Napięcie wejściowe = 12 V"},'FontSize',14)
 
+% Sprzężenie
+% 7.
+Iout_7 = 32.2e-3;
+Uin_7 = [7.5, 9.2, 11.8, 14.6, 19.5, 28.8];
+Tgora_7 = [117, 78, 65, 62, 59.2, 47.6]*10^(-6);
+T_7 = [145, 102, 103, 83, 81.];
