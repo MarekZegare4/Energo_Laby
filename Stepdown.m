@@ -80,21 +80,21 @@ Iout_3_4 = [10.6, 14, 16.8, 20.7, 25.4, 35.9, 49.1, 63.7, 69.5, 103.9, 77.5];%*1
 Duty_3_4 = 100*Tgora_3_4/T_3;
 
 figure(3)
-plot(Duty_3_1,Iout_3_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(1))
+plot(Iout_3_1, Duty_3_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(1))
 hold on
-plot(Duty_3_2,Iout_3_2, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(2))
-plot(Duty_3_3,Iout_3_3, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(3))
-plot(Duty_3_4,Iout_3_4, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(4))
-ylabel("Prąd obciążenia [mA]")
-xlabel("Wypełnienie [%]")
+plot(Iout_3_2,Duty_3_2, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(2))
+plot(Iout_3_3,Duty_3_3, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(3))
+plot(Iout_3_4,Duty_3_4, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(4))
+xlabel("Prąd obciążenia [mA]")
+ylabel("Wypełnienie [%]")
 title("Zależność prądu obciążenia od wypełnienia")
 grid on
-yline(61,'Color',clr(1))
-yline(83, 'Color',clr(2))
-yline(73.6,'Color',clr(3))
-yline(70,'Color',clr(4))
+xline(61,'Color',clr(1))
+xline(83, 'Color',clr(2))
+xline(73.6,'Color',clr(3))
+xline(70,'Color',clr(4))
 legend("Uout = 8,64 [V]","Uout = 6 [V]", "Uout = 4,2 [V]","Uout = 3 [V]",'','','','','Location','northwest' )
-text(20,120,'Prąd ciągły \uparrow', 'FontSize',14)
+text(90,20,'Prąd ciągły \rightarrow', 'FontSize',14)
 
 
 % 4.1
