@@ -7,22 +7,15 @@ Iob_1 = 45.3e-3;
 Tgora_1 = sort([153, 140, 117, 62, 35.6, 67.2, 115.6]*10^(-6), "descend");
 Uout_1 = sort([3.91, 4.29, 5.87, 14.01, 19.4, 13.5, 6], "ascend");
 Tosc_1 = [0, 0, 67.2, 35.2, 0, 37.2, 66.8]*10^(-6);
-Duty_1 = 100 - (Tgora_1/T_1)*100;
+Duty_1 = (Tgora_1/T_1)*100;
 
 figure(1)
-[Duty_1,idx] =sort( 1 - Tgora_1/T_1);
-Uout_1 = Uout_1(idx);
-Uout_1_t = 4./(1 - Duty_1);
-
-plot(100*Duty_1, Uout_1_t, 'Color',"#7E2F8E", "LineStyle",'-', 'Marker','+', 'MarkerSize',10)
-hold on
-plot(100*Duty_1,Uout_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14)
+plot(Duty_1,Uout_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14)
 grid on
 ylabel("Napięcie wyjściowe [V]")
 xlabel("Wypełnienie [%]")
 title("Zależność napięcia wyjściowego od wypełnienia")
-text(30,14, {"I obciążenia = 45.3 mA ","U wejściowe = 4 V"}, 'FontSize',14)
-legend("Wartości teoretyczne","Wartości zmierzone",'','','','','Location','northeast' )
+text(60,14, {"I obciążenia = 45.3 mA ","U wejściowe = 4 V"}, 'FontSize',14)
 %xline(prcg_1)
 %text(50, 3,"  Prąd ciągły \rightarrow", "FontSize",14)
 
@@ -97,59 +90,33 @@ grid on
 legend("Uout = 4,9 [V]","Uout = 7 [V]", "Uout = 9,8 [V]","Uout = 14 [V]",'','','','','Location','northeast' )
 % text(90,20,'Prąd ciągły \rightarrow', 'FontSize',14);
 
-
 % 5.
 Iout_5 = 26e-3;
 T_5 = 75.2e-6;
 Tdol_5 = 54.8e-6;
 % C1
-f_5_1 = [5.85, 6.56, 7.69, 8.93, 11.2]%*10^3;
-A_5_1 = [468, 404, 320, 276, 210]%*10^(-3);
+f_5_1 = [5.85, 6.56, 7.69, 8.93, 11.2]*10^3;
+A_5_1 = [468, 404, 320, 276, 210]*10^(-3);
 % C2
-f_5_2 = [5.85, 6.89, 8.53, 11.26, 14.12]%*10^3;
-A_5_2 = [106, 98, 67, 51, 35.6]%*10^(-3);
+f_5_2 = [5.85, 6.89, 8.53, 11.26, 14.12]*10^3;
+A_5_2 = [106, 98, 67, 51, 35.6]*10^(-3);
 % C3
-f_5_3 = [5.85, 6.45, 7.3, 9.32, 12.44]%*10^3;
-A_5_3 = [48.4, 44.8, 40, 33.2, 26]%*10^(-3);
+f_5_3 = [5.85, 6.45, 7.3, 9.32, 12.44]*10^3;
+A_5_3 = [48.4, 44.8, 40, 33.2, 26]*10^(-3);
 % C4
-f_5_4 = [5.85, 6.3, 6.89, 8, 10.3, 13.3]%*10^3;
-A_5_4 = [15.6, 13.4, 12.2, 9.9, 8.3, 6.8]%*10^(-3);
-
-figure(5)
-plot(f_5_1, A_5_1, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(1))
-hold on
-plot(f_5_2, A_5_2, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(2))
-plot(f_5_3, A_5_3, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(3))
-plot(f_5_4, A_5_4, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(4))
-xlabel("Częstotliwość [kHz]")
-ylabel("Amplituda [mV]")
-grid on
-legend("C1", "C2","C3","C4", "Location","northeast")
-title("Zależność amlitudy tętnień od częstotliwości")
-text(40,40,{"Prąd obciążenia = 26 mA"},'FontSize',14)
+f_5_4 = [5.85, 6.3, 6.89, 8, 10.3, 13.3]*10^3;
+A_5_4 = [15.6, 13.4, 12.2, 9.9, 8.3, 6.8]*10^(-3);
 
 % 6.
 f_6 = 10.2e3;
 T_6 = 98e-6;
 Iob_6 = 32e-3;
 % C1
-Tgora_6_1 = [88.4, 82.8, 67.6, 49.6, 30.8]*10^(-6);
-A_6_1 = [46, 66.4, 115, 174, 250]%*10^(-3);
+T_gora_6_1 = [88.4, 82.8, 67.6, 49.6, 30.8]*10^(-6);
+A_6_1 = [46, 66.4, 115, 174, 250]*10^(-3);
 % C2
-Tgora_6_2 = [88.4, 79.2, 67.6, 43.2, 34, 16.8]*10^(-6);
-A_6_2 = [10.6, 15.5, 25.2, 47.2, 54.8, 81]%*10^(-3);
+T_gora_6_2 = [88.4, 79.2, 67.6, 43.2, 34, 16.8]*10^(-6);
+A_6_2 = [10.6, 15.5, 25.2, 47.2, 54.8, 81]*10^(-3);
 % C3
-Tgora_6_3 = [88.4, 84.4, 70.4, 44.8, 29.6, 15.2]*10^(-6);
-A_6_3 = [6.4, 8, 12.9, 23.6, 30.2, 38.4]%*10^(-3);
-
-figure(6)
-plot(100 - 100*Tgora_6_1/T_6, A_6_1, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(1))
-hold on
-plot(100 - 100*Tgora_6_2/T_6, A_6_2, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(2))
-plot(100 - 100*Tgora_6_3/T_6, A_6_3, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(3))
-xlabel("Wypełnienie [%]")
-ylabel("Amplituda [mV]")
-title("Zależność amplitudy tętnień od wypełnienia")
-grid on
-legend("C1", "C2", "C3", "Location","northwest")
-text(50, 150,{"Prąd obciążenia = 32 mA", "Częstotliwość = 10,2 kHz"},'FontSize',14)
+T_gora_6_3 = [88.4, 84.4, 70.4, 44.8, 29.6, 15.2]*10^(-6);
+A_6_3 = [6.4, 8, 12.9, 23.6, 30.2, 38.4]*10^(-3);
