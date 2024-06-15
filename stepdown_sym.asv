@@ -1,0 +1,19 @@
+% stepdown sym
+
+uout_1= [ 1.3098 5.174  8.3332 10.399 11.7030 12.4350 12.95 13.337 13.6302 ];
+d_1 = 0.1:0.1:0.9;
+
+
+clr = ["#D95319" "#EDB120" "#7E2F8E" "#77AC30" "#4DBEEE" "#A2142F"];
+
+T_1 = 112.4e-6;
+Tgora_1 = sort([102.4, 84.8, 74.4, 63.6, 44.4, 27.6, 17.6, 12, 51.2]*10^(-6), "ascend");
+Duty_1 =(Tgora_1/T_1)*100;
+Uout_1 = sort([13.42, 12.44, 11.96, 10.93, 8.36, 4.6, 2.03, 1.1, 9.4], "ascend");
+
+figure(1)
+plot(100*d_1, uout_1, 'Marker', '+', 'LineStyle','-.', 'Color',clr(2))
+hold on
+plot(Duty_1, Uout_1, 'Marker', '+', 'LineStyle','-.', 'Color',clr(3))
+grid on
+title("Charaktery")

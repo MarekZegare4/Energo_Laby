@@ -277,5 +277,3 @@ xlabel("Prąd obciążenia [mA]")
 title("Zależność napięcia wyjściowego od prądu obciążenia")
 
 legend("U_{zas} = 17V", "U_{zas} = 14V", "U_{zas} = 10,69V", "U_{zas} = 5,87V")
-
-

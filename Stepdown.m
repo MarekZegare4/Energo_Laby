@@ -10,7 +10,7 @@ T_1 = 112.4e-6;
 Uin_1 = 15;
 Iob_1 = 50e-3;
 Tgora_1 = sort([102.4, 84.8, 74.4, 63.6, 44.4, 27.6, 17.6, 12, 51.2]*10^(-6), "ascend");
-Duty_1 = (Tgora_1/T_1)*100;
+Duty_1 =(Tgora_1/T_1)*100;
 Uout_1 = sort([13.42, 12.44, 11.96, 10.93, 8.36, 4.6, 2.03, 1.1, 9.4], "ascend");
 
 prcg_1 = (90e-6/T_1)*100;
@@ -21,7 +21,7 @@ grid on
 ylabel("Napięcie wyjściowe [V]")
 xlabel("Wypełnienie [%]")
 title("Zależność napięcia wyjściowego od wypełnienia")
-text(12,12, {"I obciążenia = 50 mA ","U wejściowe = 15 V"}, 'FontSize',14)
+text(10,8, {"I obciążenia = 50 mA ","U wejściowe = 15 V"}, 'FontSize',14)
 xline(prcg_1)
 text(50, 3,"  Prąd ciągły \rightarrow", "FontSize",14)
 
@@ -55,7 +55,7 @@ Uin_3 = 12;
 T_3 = 113.6e-6;
 Uout_3_1 = 8.64;
 Tgora_3_1 = [53.6, 59.2, 62, 68.4, 83.6, 84.4, 86.4, 87.6]*10^(-6);
-Duty_3_1 = 100*Tgora_3_1/T_3;
+Duty_3_1 = 100 - 100*Tgora_3_1/T_3;
 Iout_3_1 = [30.9, 36.7, 42.6, 54.3, 71.2, 94, 135.2, 183];%*10^(-3);
 
 % 3.2
@@ -63,21 +63,21 @@ Iout_3_1 = [30.9, 36.7, 42.6, 54.3, 71.2, 94, 135.2, 183];%*10^(-3);
 Uout_3_2 = 6;
 Tgora_3_2 = [30, 33.2, 34.4, 38, 42.8, 46.8, 54, 57.2, 60.8, 63.2]*10^(-6);
 Iout_3_2 = [21.5, 25.6, 29.4, 37.7, 46.2, 58.1, 75, 85.3, 106.8, 181.6];%*10^(-3);
-Duty_3_2 = 100*Tgora_3_2/T_3;
+Duty_3_2 = 100 - 100*Tgora_3_2/T_3;
 
 % 3.3
 % Prąd ciągły 73.6mA ->
 Uout_3_3 = 4.2;
 Tgora_3_3 = sort([18.8, 29.4, 22.8, 24.8, 28, 30, 34, 38.8, 43.6, 45.6]*10^(-6), "ascend");
 Iout_3_3 = sort([25.3, 17.9, 22.7, 28.11, 33.9, 38.3, 50.6, 65.4, 83.5, 108.8], "ascend");%*10^(-3);
-Duty_3_3 = 100*Tgora_3_3/T_3;
+Duty_3_3 = 100 - 100*Tgora_3_3/T_3;
 
 % 3.4
 % Prąd ciągły 70mA ->
 Uout_3_4 = 3;
 Tgora_3_4 = [12, 14, 14.8, 16.4, 18.8, 22.4, 26.4, 30, 32, 32.8, 32.4]*10^(-6);
 Iout_3_4 = [10.6, 14, 16.8, 20.7, 25.4, 35.9, 49.1, 63.7, 69.5, 103.9, 77.5];%*10^(-3);
-Duty_3_4 = 100*Tgora_3_4/T_3;
+Duty_3_4 = 100 -100*Tgora_3_4/T_3;
 
 figure(3)
 plot(Iout_3_1, Duty_3_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14, 'Color',clr(1))
@@ -93,8 +93,8 @@ xline(61,'Color',clr(1))
 xline(83, 'Color',clr(2))
 xline(73.6,'Color',clr(3))
 xline(70,'Color',clr(4))
-legend("Uout = 8,64 [V]","Uout = 6 [V]", "Uout = 4,2 [V]","Uout = 3 [V]",'','','','','Location','northwest' )
-text(90,20,'Prąd ciągły \rightarrow', 'FontSize',14)
+legend("Uout = 8,64 [V]","Uout = 6 [V]", "Uout = 4,2 [V]","Uout = 3 [V]",'','','','','Location','northeast' )
+text(20,40,'Prąd ciągły \rightarrow', 'FontSize',14)
 
 
 % 4.1

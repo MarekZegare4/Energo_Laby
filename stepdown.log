@@ -1,0 +1,1023 @@
+Circuit: * E:\studia\energoelektronika\Energo_Laby\stepdown.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v2.  Increasing period to 0.00112486
+Limiting rise time of source v2 to 2.1684e-019
+Limiting fall time of source v2 to 2.1684e-019
+ERROR: Node NC_01 is floating and connected to current source I2
+ERROR: Node NC_02 is floating and connected to current source I2
+ERROR: Node NC_03 is floating and connected to current source I1
+ERROR: Node NC_04 is floating and connected to current source I1
+WARNING: Node NC_06 is floating.
+
+WARNING: Less than two connections to node NC_05.  This node is used by V3.
+WARNING: Less than two connections to node NC_06.  This node is used by V3.
+Direct Newton iteration for .op point succeeded.
+.step iout=10 wyp=10
+.step iout=15 wyp=10
+.step iout=20 wyp=10
+.step iout=25 wyp=10
+.step iout=30 wyp=10
+.step iout=35 wyp=10
+.step iout=40 wyp=10
+.step iout=45 wyp=10
+.step iout=50 wyp=10
+.step iout=55 wyp=10
+.step iout=60 wyp=10
+.step iout=65 wyp=10
+.step iout=70 wyp=10
+.step iout=75 wyp=10
+.step iout=80 wyp=10
+.step iout=85 wyp=10
+.step iout=90 wyp=10
+.step iout=95 wyp=10
+.step iout=100 wyp=10
+.step iout=105 wyp=10
+.step iout=110 wyp=10
+.step iout=115 wyp=10
+.step iout=120 wyp=10
+.step iout=125 wyp=10
+.step iout=130 wyp=10
+.step iout=135 wyp=10
+.step iout=140 wyp=10
+.step iout=145 wyp=10
+.step iout=150 wyp=10
+.step iout=10 wyp=15
+.step iout=15 wyp=15
+.step iout=20 wyp=15
+.step iout=25 wyp=15
+.step iout=30 wyp=15
+.step iout=35 wyp=15
+.step iout=40 wyp=15
+.step iout=45 wyp=15
+.step iout=50 wyp=15
+.step iout=55 wyp=15
+.step iout=60 wyp=15
+.step iout=65 wyp=15
+.step iout=70 wyp=15
+.step iout=75 wyp=15
+.step iout=80 wyp=15
+.step iout=85 wyp=15
+.step iout=90 wyp=15
+.step iout=95 wyp=15
+.step iout=100 wyp=15
+.step iout=105 wyp=15
+.step iout=110 wyp=15
+.step iout=115 wyp=15
+.step iout=120 wyp=15
+.step iout=125 wyp=15
+.step iout=130 wyp=15
+.step iout=135 wyp=15
+.step iout=140 wyp=15
+.step iout=145 wyp=15
+.step iout=150 wyp=15
+.step iout=10 wyp=20
+.step iout=15 wyp=20
+.step iout=20 wyp=20
+.step iout=25 wyp=20
+.step iout=30 wyp=20
+.step iout=35 wyp=20
+.step iout=40 wyp=20
+.step iout=45 wyp=20
+.step iout=50 wyp=20
+.step iout=55 wyp=20
+.step iout=60 wyp=20
+.step iout=65 wyp=20
+.step iout=70 wyp=20
+.step iout=75 wyp=20
+.step iout=80 wyp=20
+.step iout=85 wyp=20
+.step iout=90 wyp=20
+.step iout=95 wyp=20
+.step iout=100 wyp=20
+.step iout=105 wyp=20
+.step iout=110 wyp=20
+.step iout=115 wyp=20
+.step iout=120 wyp=20
+.step iout=125 wyp=20
+.step iout=130 wyp=20
+.step iout=135 wyp=20
+.step iout=140 wyp=20
+.step iout=145 wyp=20
+.step iout=150 wyp=20
+.step iout=10 wyp=25
+.step iout=15 wyp=25
+.step iout=20 wyp=25
+.step iout=25 wyp=25
+.step iout=30 wyp=25
+.step iout=35 wyp=25
+.step iout=40 wyp=25
+.step iout=45 wyp=25
+.step iout=50 wyp=25
+.step iout=55 wyp=25
+.step iout=60 wyp=25
+.step iout=65 wyp=25
+.step iout=70 wyp=25
+.step iout=75 wyp=25
+.step iout=80 wyp=25
+.step iout=85 wyp=25
+.step iout=90 wyp=25
+.step iout=95 wyp=25
+.step iout=100 wyp=25
+.step iout=105 wyp=25
+.step iout=110 wyp=25
+.step iout=115 wyp=25
+.step iout=120 wyp=25
+.step iout=125 wyp=25
+.step iout=130 wyp=25
+.step iout=135 wyp=25
+.step iout=140 wyp=25
+.step iout=145 wyp=25
+.step iout=150 wyp=25
+.step iout=10 wyp=30
+.step iout=15 wyp=30
+.step iout=20 wyp=30
+.step iout=25 wyp=30
+.step iout=30 wyp=30
+.step iout=35 wyp=30
+.step iout=40 wyp=30
+.step iout=45 wyp=30
+.step iout=50 wyp=30
+.step iout=55 wyp=30
+.step iout=60 wyp=30
+.step iout=65 wyp=30
+.step iout=70 wyp=30
+.step iout=75 wyp=30
+.step iout=80 wyp=30
+.step iout=85 wyp=30
+.step iout=90 wyp=30
+.step iout=95 wyp=30
+.step iout=100 wyp=30
+.step iout=105 wyp=30
+.step iout=110 wyp=30
+.step iout=115 wyp=30
+.step iout=120 wyp=30
+.step iout=125 wyp=30
+.step iout=130 wyp=30
+.step iout=135 wyp=30
+.step iout=140 wyp=30
+.step iout=145 wyp=30
+.step iout=150 wyp=30
+.step iout=10 wyp=35
+.step iout=15 wyp=35
+.step iout=20 wyp=35
+.step iout=25 wyp=35
+.step iout=30 wyp=35
+.step iout=35 wyp=35
+.step iout=40 wyp=35
+.step iout=45 wyp=35
+.step iout=50 wyp=35
+.step iout=55 wyp=35
+.step iout=60 wyp=35
+.step iout=65 wyp=35
+.step iout=70 wyp=35
+.step iout=75 wyp=35
+.step iout=80 wyp=35
+.step iout=85 wyp=35
+.step iout=90 wyp=35
+.step iout=95 wyp=35
+.step iout=100 wyp=35
+.step iout=105 wyp=35
+.step iout=110 wyp=35
+.step iout=115 wyp=35
+.step iout=120 wyp=35
+.step iout=125 wyp=35
+.step iout=130 wyp=35
+.step iout=135 wyp=35
+.step iout=140 wyp=35
+.step iout=145 wyp=35
+.step iout=150 wyp=35
+.step iout=10 wyp=40
+.step iout=15 wyp=40
+.step iout=20 wyp=40
+.step iout=25 wyp=40
+.step iout=30 wyp=40
+.step iout=35 wyp=40
+.step iout=40 wyp=40
+.step iout=45 wyp=40
+.step iout=50 wyp=40
+.step iout=55 wyp=40
+.step iout=60 wyp=40
+.step iout=65 wyp=40
+.step iout=70 wyp=40
+.step iout=75 wyp=40
+.step iout=80 wyp=40
+.step iout=85 wyp=40
+.step iout=90 wyp=40
+.step iout=95 wyp=40
+.step iout=100 wyp=40
+.step iout=105 wyp=40
+.step iout=110 wyp=40
+.step iout=115 wyp=40
+.step iout=120 wyp=40
+.step iout=125 wyp=40
+.step iout=130 wyp=40
+.step iout=135 wyp=40
+.step iout=140 wyp=40
+.step iout=145 wyp=40
+.step iout=150 wyp=40
+.step iout=10 wyp=45
+.step iout=15 wyp=45
+.step iout=20 wyp=45
+.step iout=25 wyp=45
+.step iout=30 wyp=45
+.step iout=35 wyp=45
+.step iout=40 wyp=45
+.step iout=45 wyp=45
+.step iout=50 wyp=45
+.step iout=55 wyp=45
+.step iout=60 wyp=45
+.step iout=65 wyp=45
+.step iout=70 wyp=45
+.step iout=75 wyp=45
+.step iout=80 wyp=45
+.step iout=85 wyp=45
+.step iout=90 wyp=45
+.step iout=95 wyp=45
+.step iout=100 wyp=45
+.step iout=105 wyp=45
+.step iout=110 wyp=45
+.step iout=115 wyp=45
+.step iout=120 wyp=45
+.step iout=125 wyp=45
+.step iout=130 wyp=45
+.step iout=135 wyp=45
+.step iout=140 wyp=45
+.step iout=145 wyp=45
+.step iout=150 wyp=45
+.step iout=10 wyp=50
+.step iout=15 wyp=50
+.step iout=20 wyp=50
+.step iout=25 wyp=50
+.step iout=30 wyp=50
+.step iout=35 wyp=50
+.step iout=40 wyp=50
+.step iout=45 wyp=50
+.step iout=50 wyp=50
+.step iout=55 wyp=50
+.step iout=60 wyp=50
+.step iout=65 wyp=50
+.step iout=70 wyp=50
+.step iout=75 wyp=50
+.step iout=80 wyp=50
+.step iout=85 wyp=50
+.step iout=90 wyp=50
+.step iout=95 wyp=50
+.step iout=100 wyp=50
+.step iout=105 wyp=50
+.step iout=110 wyp=50
+.step iout=115 wyp=50
+.step iout=120 wyp=50
+.step iout=125 wyp=50
+.step iout=130 wyp=50
+.step iout=135 wyp=50
+.step iout=140 wyp=50
+.step iout=145 wyp=50
+.step iout=150 wyp=50
+.step iout=10 wyp=55
+.step iout=15 wyp=55
+.step iout=20 wyp=55
+.step iout=25 wyp=55
+.step iout=30 wyp=55
+.step iout=35 wyp=55
+.step iout=40 wyp=55
+.step iout=45 wyp=55
+.step iout=50 wyp=55
+.step iout=55 wyp=55
+.step iout=60 wyp=55
+.step iout=65 wyp=55
+.step iout=70 wyp=55
+.step iout=75 wyp=55
+.step iout=80 wyp=55
+.step iout=85 wyp=55
+.step iout=90 wyp=55
+.step iout=95 wyp=55
+.step iout=100 wyp=55
+.step iout=105 wyp=55
+.step iout=110 wyp=55
+.step iout=115 wyp=55
+.step iout=120 wyp=55
+.step iout=125 wyp=55
+.step iout=130 wyp=55
+.step iout=135 wyp=55
+.step iout=140 wyp=55
+.step iout=145 wyp=55
+.step iout=150 wyp=55
+.step iout=10 wyp=60
+.step iout=15 wyp=60
+.step iout=20 wyp=60
+.step iout=25 wyp=60
+.step iout=30 wyp=60
+.step iout=35 wyp=60
+.step iout=40 wyp=60
+.step iout=45 wyp=60
+.step iout=50 wyp=60
+.step iout=55 wyp=60
+.step iout=60 wyp=60
+.step iout=65 wyp=60
+.step iout=70 wyp=60
+.step iout=75 wyp=60
+.step iout=80 wyp=60
+.step iout=85 wyp=60
+.step iout=90 wyp=60
+.step iout=95 wyp=60
+.step iout=100 wyp=60
+.step iout=105 wyp=60
+.step iout=110 wyp=60
+.step iout=115 wyp=60
+.step iout=120 wyp=60
+.step iout=125 wyp=60
+.step iout=130 wyp=60
+.step iout=135 wyp=60
+.step iout=140 wyp=60
+.step iout=145 wyp=60
+.step iout=150 wyp=60
+.step iout=10 wyp=65
+.step iout=15 wyp=65
+.step iout=20 wyp=65
+.step iout=25 wyp=65
+.step iout=30 wyp=65
+.step iout=35 wyp=65
+.step iout=40 wyp=65
+.step iout=45 wyp=65
+.step iout=50 wyp=65
+.step iout=55 wyp=65
+.step iout=60 wyp=65
+.step iout=65 wyp=65
+.step iout=70 wyp=65
+.step iout=75 wyp=65
+.step iout=80 wyp=65
+.step iout=85 wyp=65
+.step iout=90 wyp=65
+.step iout=95 wyp=65
+.step iout=100 wyp=65
+.step iout=105 wyp=65
+.step iout=110 wyp=65
+.step iout=115 wyp=65
+.step iout=120 wyp=65
+.step iout=125 wyp=65
+.step iout=130 wyp=65
+.step iout=135 wyp=65
+.step iout=140 wyp=65
+.step iout=145 wyp=65
+.step iout=150 wyp=65
+.step iout=10 wyp=70
+.step iout=15 wyp=70
+.step iout=20 wyp=70
+.step iout=25 wyp=70
+.step iout=30 wyp=70
+.step iout=35 wyp=70
+.step iout=40 wyp=70
+.step iout=45 wyp=70
+.step iout=50 wyp=70
+.step iout=55 wyp=70
+.step iout=60 wyp=70
+.step iout=65 wyp=70
+.step iout=70 wyp=70
+.step iout=75 wyp=70
+.step iout=80 wyp=70
+.step iout=85 wyp=70
+.step iout=90 wyp=70
+.step iout=95 wyp=70
+.step iout=100 wyp=70
+.step iout=105 wyp=70
+.step iout=110 wyp=70
+.step iout=115 wyp=70
+.step iout=120 wyp=70
+.step iout=125 wyp=70
+.step iout=130 wyp=70
+.step iout=135 wyp=70
+.step iout=140 wyp=70
+.step iout=145 wyp=70
+.step iout=150 wyp=70
+.step iout=10 wyp=75
+.step iout=15 wyp=75
+.step iout=20 wyp=75
+.step iout=25 wyp=75
+.step iout=30 wyp=75
+.step iout=35 wyp=75
+.step iout=40 wyp=75
+.step iout=45 wyp=75
+.step iout=50 wyp=75
+.step iout=55 wyp=75
+.step iout=60 wyp=75
+.step iout=65 wyp=75
+.step iout=70 wyp=75
+.step iout=75 wyp=75
+.step iout=80 wyp=75
+.step iout=85 wyp=75
+.step iout=90 wyp=75
+.step iout=95 wyp=75
+.step iout=100 wyp=75
+.step iout=105 wyp=75
+.step iout=110 wyp=75
+.step iout=115 wyp=75
+.step iout=120 wyp=75
+.step iout=125 wyp=75
+.step iout=130 wyp=75
+.step iout=135 wyp=75
+.step iout=140 wyp=75
+.step iout=145 wyp=75
+.step iout=150 wyp=75
+.step iout=10 wyp=80
+.step iout=15 wyp=80
+.step iout=20 wyp=80
+.step iout=25 wyp=80
+.step iout=30 wyp=80
+.step iout=35 wyp=80
+.step iout=40 wyp=80
+.step iout=45 wyp=80
+.step iout=50 wyp=80
+.step iout=55 wyp=80
+.step iout=60 wyp=80
+.step iout=65 wyp=80
+.step iout=70 wyp=80
+.step iout=75 wyp=80
+.step iout=80 wyp=80
+.step iout=85 wyp=80
+.step iout=90 wyp=80
+.step iout=95 wyp=80
+.step iout=100 wyp=80
+.step iout=105 wyp=80
+.step iout=110 wyp=80
+.step iout=115 wyp=80
+.step iout=120 wyp=80
+.step iout=125 wyp=80
+.step iout=130 wyp=80
+.step iout=135 wyp=80
+.step iout=140 wyp=80
+.step iout=145 wyp=80
+.step iout=150 wyp=80
+.step iout=10 wyp=85
+.step iout=15 wyp=85
+.step iout=20 wyp=85
+.step iout=25 wyp=85
+.step iout=30 wyp=85
+.step iout=35 wyp=85
+.step iout=40 wyp=85
+.step iout=45 wyp=85
+.step iout=50 wyp=85
+.step iout=55 wyp=85
+.step iout=60 wyp=85
+.step iout=65 wyp=85
+.step iout=70 wyp=85
+.step iout=75 wyp=85
+.step iout=80 wyp=85
+.step iout=85 wyp=85
+.step iout=90 wyp=85
+.step iout=95 wyp=85
+.step iout=100 wyp=85
+.step iout=105 wyp=85
+.step iout=110 wyp=85
+.step iout=115 wyp=85
+.step iout=120 wyp=85
+.step iout=125 wyp=85
+.step iout=130 wyp=85
+.step iout=135 wyp=85
+.step iout=140 wyp=85
+.step iout=145 wyp=85
+.step iout=150 wyp=85
+.step iout=10 wyp=90
+.step iout=15 wyp=90
+.step iout=20 wyp=90
+.step iout=25 wyp=90
+.step iout=30 wyp=90
+.step iout=35 wyp=90
+.step iout=40 wyp=90
+.step iout=45 wyp=90
+.step iout=50 wyp=90
+.step iout=55 wyp=90
+.step iout=60 wyp=90
+.step iout=65 wyp=90
+.step iout=70 wyp=90
+.step iout=75 wyp=90
+.step iout=80 wyp=90
+.step iout=85 wyp=90
+.step iout=90 wyp=90
+.step iout=95 wyp=90
+.step iout=100 wyp=90
+.step iout=105 wyp=90
+.step iout=110 wyp=90
+.step iout=115 wyp=90
+.step iout=120 wyp=90
+.step iout=125 wyp=90
+.step iout=130 wyp=90
+.step iout=135 wyp=90
+.step iout=140 wyp=90
+.step iout=145 wyp=90
+.step iout=150 wyp=90
+
+
+Measurement: prond
+  step	AVG(i(l1)*1000)	FROM	TO
+     1	469.025	0	0.005
+     2	470.859	0	0.005
+     3	471.782	0	0.005
+     4	472.338	0	0.005
+     5	472.71	0	0.005
+     6	472.976	0	0.005
+     7	473.175	0	0.005
+     8	473.315	0	0.005
+     9	473.455	0	0.005
+    10	473.557	0	0.005
+    11	473.642	0	0.005
+    12	473.714	0	0.005
+    13	473.775	0	0.005
+    14	473.828	0	0.005
+    15	473.875	0	0.005
+    16	473.91	0	0.005
+    17	473.953	0	0.005
+    18	473.985	0	0.005
+    19	473.998	0	0.005
+    20	474.042	0	0.005
+    21	474.066	0	0.005
+    22	474.089	0	0.005
+    23	474.109	0	0.005
+    24	474.128	0	0.005
+    25	474.145	0	0.005
+    26	474.161	0	0.005
+    27	474.176	0	0.005
+    28	474.19	0	0.005
+    29	474.203	0	0.005
+    30	469.025	0	0.005
+    31	470.859	0	0.005
+    32	471.782	0	0.005
+    33	472.338	0	0.005
+    34	472.71	0	0.005
+    35	472.976	0	0.005
+    36	473.175	0	0.005
+    37	473.331	0	0.005
+    38	473.455	0	0.005
+    39	473.557	0	0.005
+    40	473.642	0	0.005
+    41	473.714	0	0.005
+    42	473.775	0	0.005
+    43	473.828	0	0.005
+    44	473.875	0	0.005
+    45	473.916	0	0.005
+    46	473.953	0	0.005
+    47	473.986	0	0.005
+    48	474.015	0	0.005
+    49	474.042	0	0.005
+    50	474.066	0	0.005
+    51	474.089	0	0.005
+    52	474.109	0	0.005
+    53	474.128	0	0.005
+    54	474.145	0	0.005
+    55	474.161	0	0.005
+    56	474.176	0	0.005
+    57	474.19	0	0.005
+    58	474.203	0	0.005
+    59	469.025	0	0.005
+    60	470.85	0	0.005
+    61	471.782	0	0.005
+    62	472.338	0	0.005
+    63	472.71	0	0.005
+    64	472.976	0	0.005
+    65	473.175	0	0.005
+    66	473.331	0	0.005
+    67	473.455	0	0.005
+    68	473.557	0	0.005
+    69	473.642	0	0.005
+    70	473.714	0	0.005
+    71	473.775	0	0.005
+    72	473.828	0	0.005
+    73	473.875	0	0.005
+    74	473.916	0	0.005
+    75	473.953	0	0.005
+    76	473.986	0	0.005
+    77	474.015	0	0.005
+    78	474.042	0	0.005
+    79	474.066	0	0.005
+    80	474.089	0	0.005
+    81	474.109	0	0.005
+    82	474.128	0	0.005
+    83	474.145	0	0.005
+    84	474.161	0	0.005
+    85	474.176	0	0.005
+    86	474.19	0	0.005
+    87	474.203	0	0.005
+    88	469.025	0	0.005
+    89	470.859	0	0.005
+    90	471.782	0	0.005
+    91	472.338	0	0.005
+    92	472.71	0	0.005
+    93	472.976	0	0.005
+    94	473.175	0	0.005
+    95	473.331	0	0.005
+    96	473.455	0	0.005
+    97	473.557	0	0.005
+    98	473.642	0	0.005
+    99	473.714	0	0.005
+   100	473.775	0	0.005
+   101	473.828	0	0.005
+   102	473.875	0	0.005
+   103	473.916	0	0.005
+   104	473.953	0	0.005
+   105	473.986	0	0.005
+   106	474.015	0	0.005
+   107	474.042	0	0.005
+   108	474.066	0	0.005
+   109	474.089	0	0.005
+   110	474.109	0	0.005
+   111	474.128	0	0.005
+   112	474.145	0	0.005
+   113	474.161	0	0.005
+   114	474.176	0	0.005
+   115	474.19	0	0.005
+   116	474.203	0	0.005
+   117	469.025	0	0.005
+   118	470.859	0	0.005
+   119	471.782	0	0.005
+   120	472.338	0	0.005
+   121	472.71	0	0.005
+   122	472.976	0	0.005
+   123	473.175	0	0.005
+   124	473.331	0	0.005
+   125	473.455	0	0.005
+   126	473.557	0	0.005
+   127	473.642	0	0.005
+   128	473.714	0	0.005
+   129	473.775	0	0.005
+   130	473.828	0	0.005
+   131	473.875	0	0.005
+   132	473.916	0	0.005
+   133	473.953	0	0.005
+   134	473.986	0	0.005
+   135	474.015	0	0.005
+   136	474.042	0	0.005
+   137	474.066	0	0.005
+   138	474.089	0	0.005
+   139	474.109	0	0.005
+   140	474.128	0	0.005
+   141	474.145	0	0.005
+   142	474.161	0	0.005
+   143	474.176	0	0.005
+   144	474.19	0	0.005
+   145	474.203	0	0.005
+   146	469.025	0	0.005
+   147	470.859	0	0.005
+   148	471.782	0	0.005
+   149	472.338	0	0.005
+   150	472.71	0	0.005
+   151	472.976	0	0.005
+   152	473.175	0	0.005
+   153	473.331	0	0.005
+   154	473.455	0	0.005
+   155	473.557	0	0.005
+   156	473.642	0	0.005
+   157	473.714	0	0.005
+   158	473.775	0	0.005
+   159	473.828	0	0.005
+   160	473.875	0	0.005
+   161	473.916	0	0.005
+   162	473.953	0	0.005
+   163	473.986	0	0.005
+   164	474.015	0	0.005
+   165	474.042	0	0.005
+   166	474.066	0	0.005
+   167	474.089	0	0.005
+   168	474.109	0	0.005
+   169	474.128	0	0.005
+   170	474.145	0	0.005
+   171	474.161	0	0.005
+   172	474.176	0	0.005
+   173	474.19	0	0.005
+   174	474.203	0	0.005
+   175	469.025	0	0.005
+   176	470.859	0	0.005
+   177	471.782	0	0.005
+   178	472.338	0	0.005
+   179	472.71	0	0.005
+   180	472.976	0	0.005
+   181	473.175	0	0.005
+   182	473.331	0	0.005
+   183	473.455	0	0.005
+   184	473.557	0	0.005
+   185	473.642	0	0.005
+   186	473.714	0	0.005
+   187	473.775	0	0.005
+   188	473.828	0	0.005
+   189	473.875	0	0.005
+   190	473.916	0	0.005
+   191	473.953	0	0.005
+   192	473.986	0	0.005
+   193	474.015	0	0.005
+   194	474.042	0	0.005
+   195	474.066	0	0.005
+   196	474.089	0	0.005
+   197	474.109	0	0.005
+   198	474.128	0	0.005
+   199	474.145	0	0.005
+   200	474.161	0	0.005
+   201	474.176	0	0.005
+   202	474.19	0	0.005
+   203	474.203	0	0.005
+   204	469.025	0	0.005
+   205	470.859	0	0.005
+   206	471.782	0	0.005
+   207	472.338	0	0.005
+   208	472.71	0	0.005
+   209	472.976	0	0.005
+   210	473.175	0	0.005
+   211	473.331	0	0.005
+   212	473.455	0	0.005
+   213	473.557	0	0.005
+   214	473.642	0	0.005
+   215	473.714	0	0.005
+   216	473.775	0	0.005
+   217	473.828	0	0.005
+   218	473.875	0	0.005
+   219	473.916	0	0.005
+   220	473.953	0	0.005
+   221	473.986	0	0.005
+   222	474.015	0	0.005
+   223	474.042	0	0.005
+   224	474.066	0	0.005
+   225	474.089	0	0.005
+   226	474.109	0	0.005
+   227	474.128	0	0.005
+   228	474.145	0	0.005
+   229	474.161	0	0.005
+   230	474.176	0	0.005
+   231	474.19	0	0.005
+   232	474.203	0	0.005
+   233	469.025	0	0.005
+   234	470.859	0	0.005
+   235	471.782	0	0.005
+   236	472.338	0	0.005
+   237	472.71	0	0.005
+   238	472.976	0	0.005
+   239	473.175	0	0.005
+   240	473.331	0	0.005
+   241	473.455	0	0.005
+   242	473.557	0	0.005
+   243	473.642	0	0.005
+   244	473.714	0	0.005
+   245	473.775	0	0.005
+   246	473.828	0	0.005
+   247	473.875	0	0.005
+   248	473.916	0	0.005
+   249	473.953	0	0.005
+   250	473.986	0	0.005
+   251	474.015	0	0.005
+   252	474.042	0	0.005
+   253	474.066	0	0.005
+   254	474.089	0	0.005
+   255	474.109	0	0.005
+   256	474.128	0	0.005
+   257	474.145	0	0.005
+   258	474.161	0	0.005
+   259	474.176	0	0.005
+   260	474.19	0	0.005
+   261	474.203	0	0.005
+   262	469.025	0	0.005
+   263	470.859	0	0.005
+   264	471.782	0	0.005
+   265	472.338	0	0.005
+   266	472.71	0	0.005
+   267	472.976	0	0.005
+   268	473.175	0	0.005
+   269	473.331	0	0.005
+   270	473.455	0	0.005
+   271	473.557	0	0.005
+   272	473.642	0	0.005
+   273	473.714	0	0.005
+   274	473.775	0	0.005
+   275	473.828	0	0.005
+   276	473.875	0	0.005
+   277	473.916	0	0.005
+   278	473.953	0	0.005
+   279	473.986	0	0.005
+   280	474.015	0	0.005
+   281	474.042	0	0.005
+   282	474.066	0	0.005
+   283	474.089	0	0.005
+   284	474.109	0	0.005
+   285	474.128	0	0.005
+   286	474.145	0	0.005
+   287	474.161	0	0.005
+   288	474.176	0	0.005
+   289	474.19	0	0.005
+   290	474.203	0	0.005
+   291	469.025	0	0.005
+   292	470.859	0	0.005
+   293	471.782	0	0.005
+   294	472.338	0	0.005
+   295	472.71	0	0.005
+   296	472.976	0	0.005
+   297	473.175	0	0.005
+   298	473.331	0	0.005
+   299	473.455	0	0.005
+   300	473.557	0	0.005
+   301	473.642	0	0.005
+   302	473.714	0	0.005
+   303	473.775	0	0.005
+   304	473.828	0	0.005
+   305	473.875	0	0.005
+   306	473.916	0	0.005
+   307	473.953	0	0.005
+   308	473.986	0	0.005
+   309	474.015	0	0.005
+   310	474.042	0	0.005
+   311	474.066	0	0.005
+   312	474.089	0	0.005
+   313	474.109	0	0.005
+   314	474.128	0	0.005
+   315	474.145	0	0.005
+   316	474.161	0	0.005
+   317	474.176	0	0.005
+   318	474.19	0	0.005
+   319	474.203	0	0.005
+   320	469.025	0	0.005
+   321	470.859	0	0.005
+   322	471.782	0	0.005
+   323	472.338	0	0.005
+   324	472.71	0	0.005
+   325	472.976	0	0.005
+   326	473.175	0	0.005
+   327	473.331	0	0.005
+   328	473.455	0	0.005
+   329	473.557	0	0.005
+   330	473.642	0	0.005
+   331	473.714	0	0.005
+   332	473.775	0	0.005
+   333	473.828	0	0.005
+   334	473.875	0	0.005
+   335	473.916	0	0.005
+   336	473.953	0	0.005
+   337	473.986	0	0.005
+   338	474.015	0	0.005
+   339	474.042	0	0.005
+   340	474.066	0	0.005
+   341	474.089	0	0.005
+   342	474.109	0	0.005
+   343	474.128	0	0.005
+   344	474.145	0	0.005
+   345	474.161	0	0.005
+   346	474.176	0	0.005
+   347	474.19	0	0.005
+   348	474.203	0	0.005
+   349	469.025	0	0.005
+   350	470.859	0	0.005
+   351	471.782	0	0.005
+   352	472.338	0	0.005
+   353	472.71	0	0.005
+   354	472.976	0	0.005
+   355	473.175	0	0.005
+   356	473.331	0	0.005
+   357	473.455	0	0.005
+   358	473.557	0	0.005
+   359	473.642	0	0.005
+   360	473.714	0	0.005
+   361	473.775	0	0.005
+   362	473.828	0	0.005
+   363	473.875	0	0.005
+   364	473.916	0	0.005
+   365	473.953	0	0.005
+   366	473.986	0	0.005
+   367	474.015	0	0.005
+   368	474.042	0	0.005
+   369	474.066	0	0.005
+   370	474.089	0	0.005
+   371	474.109	0	0.005
+   372	474.128	0	0.005
+   373	474.145	0	0.005
+   374	474.161	0	0.005
+   375	474.176	0	0.005
+   376	474.19	0	0.005
+   377	474.203	0	0.005
+   378	469.025	0	0.005
+   379	470.859	0	0.005
+   380	471.782	0	0.005
+   381	472.338	0	0.005
+   382	472.71	0	0.005
+   383	472.976	0	0.005
+   384	473.175	0	0.005
+   385	473.331	0	0.005
+   386	473.455	0	0.005
+   387	473.557	0	0.005
+   388	473.642	0	0.005
+   389	473.714	0	0.005
+   390	473.775	0	0.005
+   391	473.828	0	0.005
+   392	473.875	0	0.005
+   393	473.916	0	0.005
+   394	473.953	0	0.005
+   395	473.986	0	0.005
+   396	474.015	0	0.005
+   397	474.042	0	0.005
+   398	474.066	0	0.005
+   399	474.089	0	0.005
+   400	474.109	0	0.005
+   401	474.128	0	0.005
+   402	474.145	0	0.005
+   403	474.161	0	0.005
+   404	474.176	0	0.005
+   405	474.19	0	0.005
+   406	474.203	0	0.005
+   407	469.025	0	0.005
+   408	470.859	0	0.005
+   409	471.782	0	0.005
+   410	472.338	0	0.005
+   411	472.71	0	0.005
+   412	472.976	0	0.005
+   413	473.175	0	0.005
+   414	473.331	0	0.005
+   415	473.455	0	0.005
+   416	473.557	0	0.005
+   417	473.642	0	0.005
+   418	473.714	0	0.005
+   419	473.775	0	0.005
+   420	473.828	0	0.005
+   421	473.875	0	0.005
+   422	473.916	0	0.005
+   423	473.953	0	0.005
+   424	473.986	0	0.005
+   425	474.015	0	0.005
+   426	474.042	0	0.005
+   427	474.066	0	0.005
+   428	474.089	0	0.005
+   429	474.109	0	0.005
+   430	474.128	0	0.005
+   431	474.145	0	0.005
+   432	474.161	0	0.005
+   433	474.176	0	0.005
+   434	474.19	0	0.005
+   435	474.203	0	0.005
+   436	469.025	0	0.005
+   437	470.859	0	0.005
+   438	471.782	0	0.005
+   439	472.338	0	0.005
+   440	472.71	0	0.005
+   441	472.976	0	0.005
+   442	473.175	0	0.005
+   443	473.331	0	0.005
+   444	473.455	0	0.005
+   445	473.557	0	0.005
+   446	473.642	0	0.005
+   447	473.714	0	0.005
+   448	473.775	0	0.005
+   449	473.828	0	0.005
+   450	473.875	0	0.005
+   451	473.916	0	0.005
+   452	473.953	0	0.005
+   453	473.986	0	0.005
+   454	474.015	0	0.005
+   455	474.042	0	0.005
+   456	474.066	0	0.005
+   457	474.089	0	0.005
+   458	474.109	0	0.005
+   459	474.128	0	0.005
+   460	474.145	0	0.005
+   461	474.161	0	0.005
+   462	474.176	0	0.005
+   463	474.19	0	0.005
+   464	474.203	0	0.005
+   465	469.025	0	0.005
+   466	470.859	0	0.005
+   467	471.782	0	0.005
+   468	472.338	0	0.005
+   469	472.71	0	0.005
+   470	472.976	0	0.005
+   471	473.175	0	0.005
+   472	473.331	0	0.005
+   473	473.455	0	0.005
+   474	473.557	0	0.005
+   475	473.642	0	0.005
+   476	473.714	0	0.005
+   477	473.775	0	0.005
+   478	473.828	0	0.005
+   479	473.875	0	0.005
+   480	473.916	0	0.005
+   481	473.953	0	0.005
+   482	473.986	0	0.005
+   483	474.015	0	0.005
+   484	474.042	0	0.005
+   485	474.066	0	0.005
+   486	474.089	0	0.005
+   487	474.109	0	0.005
+   488	474.128	0	0.005
+   489	474.145	0	0.005
+   490	474.161	0	0.005
+   491	474.176	0	0.005
+   492	474.19	0	0.005
+   493	474.203	0	0.005
+
+
+Date: Sat Jun 15 23:17:46 2024
+Total elapsed time: 58.249 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2097
+traniter = 2093
+tranpoints = 1047
+accept = 1047
+rejected = 0
+matrix size = 12
+fillins = 0
+solver = Normal
+Matrix Compiler1: 248 bytes object code size  0.2/0.2/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.2
+
