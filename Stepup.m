@@ -1,5 +1,10 @@
 % ------------ STEP-UP ------------
 clr = ["#D95319" "#EDB120" "#7E2F8E" "#77AC30" "#4DBEEE" "#A2142F"];
+
+% widmo = csvread("SDS00001.DAT");
+% figure(7)
+% plot(widmo(:,1), widmo(:,2), widmo(:, 1), widmo(:,3))
+
 % 1.
 T_1 = 168e-6;
 Uin_1 = 4;
@@ -14,14 +19,14 @@ figure(1)
 Uout_1 = Uout_1(idx);
 Uout_1_t = 4./(1 - Duty_1);
 
-plot(100*Duty_1, Uout_1_t, 'Color',"#7E2F8E", "LineStyle",'-', 'Marker','+', 'MarkerSize',10)
+plot(100 - 100*Duty_1, Uout_1_t, 'Color',"#7E2F8E", "LineStyle",'-', 'Marker','+', 'MarkerSize',10)
 hold on
-plot(100*Duty_1,Uout_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14)
+plot(100 - 100*Duty_1,Uout_1, 'LineStyle','--', 'Marker','x', 'MarkerSize',14)
 grid on
 ylabel("Napięcie wyjściowe [V]")
 xlabel("Wypełnienie [%]")
 title("Zależność napięcia wyjściowego od wypełnienia")
-text(30,14, {"I obciążenia = 45.3 mA ","U wejściowe = 4 V"}, 'FontSize',14)
+text(60,14, {"I obciążenia = 45.3 mA ","U wejściowe = 4 V"}, 'FontSize',14)
 legend("Wartości teoretyczne","Wartości zmierzone",'','','','','Location','northeast' )
 %xline(prcg_1)
 %text(50, 3,"  Prąd ciągły \rightarrow", "FontSize",14)
@@ -129,17 +134,6 @@ A_6_2 = [10.6, 15.5, 25.2, 47.2, 54.8, 81]%*10^(-3);
 Tgora_6_3 = [88.4, 84.4, 70.4, 44.8, 29.6, 15.2]*10^(-6);
 A_6_3 = [6.4, 8, 12.9, 23.6, 30.2, 38.4]%*10^(-3);
 
-figure(6)
-plot(100 - 100*Tgora_6_1/T_6, A_6_1, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(1))
-hold on
-plot(100 - 100*Tgora_6_2/T_6, A_6_2, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(2))
-plot(100 - 100*Tgora_6_3/T_6, A_6_3, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(3))
-xlabel("Wypełnienie [%]")
-ylabel("Amplituda [mV]")
-title("Zależność amplitudy tętnień od wypełnienia")
-grid on
-legend("C1", "C2", "C3", "Location","northwest")
-text(50, 150,{"Prąd obciążenia = 32 mA", "Częstotliwość = 10,2 kHz"},'FontSize',14)
 
 % Zadanie 4.1 C3, L3
 F_7 = 9.44e3;
@@ -215,7 +209,7 @@ text(40,20,{"Prąd obciążenia = 15 mA"},'FontSize',14)
 
 % Zadanie 6. 
 % C1, L3
-% T = 66.6us
+T_9 = 66.6; % us
 Iob_9_1 = 25e-3;
 T_9_1 = [1.64, 1.31, 1.09, 0.69, 0.43];
 D_9_1 = [13.8, 32, 42.6, 53.8, 59.8]; % us
@@ -226,3 +220,14 @@ Iob_9_1 = 25e-3;
 T_9_2 = [0.051, 0.098, 0.136, 0.153, 0.165];
 D_9_2 = [58.8, 47.6, 30.2, 21, 14.6]; % us
 Uout_9_2 = [3.55, 4.61, 8.11, 10.51, 14.37];
+
+figure(6)
+plot(100 - D_9_1/T_9*100, T_9_1./Uout_9_1*100 ,'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(1))
+hold on
+plot(100 - D_9_2/T_9*100, T_9_2./Uout_9_2*100, 'LineStyle','-.', 'Marker','x', 'MarkerSize',10, 'Color',clr(2))
+xlabel("Wypełnienie [%]")
+ylabel("Współczynnik tętnień [%]")
+title("Zależność amplitudy tętnień od wypełnienia")
+grid on
+legend("C1", "C3", "Location","northwest")
+text(30, 10,{"Prąd obciążenia = 25 mA", "Częstotliwość = 15,01 kHz"},'FontSize',14)
