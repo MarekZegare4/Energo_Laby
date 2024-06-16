@@ -54,5 +54,52 @@ duty = 10:5:80;
 plot(iout3v, duty, iout42v, duty, iout6v, duty, iout864v, duty)
 
 
+%%% STEP UP
+%% 
+figure(4)
+duty2 = (0.1:0.1:0.9) * 100;
+iout2 = [3.73 4.36 5.36 7.02 9.14 11.27 13.94 21.39 43.3];
+
+plot(duty2,iout2, 'Marker', '+', 'LineStyle','-.', 'Color',clr(2))
+T_1 = 168e-6;
+hold on
+Tgora_1 = sort([153, 140, 117, 62, 35.6, 67.2, 115.6]*10^(-6), "descend");
+Uout_1 = sort([3.91, 4.29, 5.87, 14.01, 19.4, 13.5, 6], "ascend");
+
+[Duty_1,idx] =sort( 1 - Tgora_1/T_1);
+Uout_1 = Uout_1(idx);
+Uout_1_t = 4./(1 - Duty_1);
+plot(100*Duty_1, Uout_1,'Marker', '+', 'LineStyle','-.', 'Color',clr(3) )
+
+grid on
+title("Charakterystyka napięcia wyjściowego od wypełnienia sygnału kluczującego")
+xlabel("Wypełnienie [%]")
+ylabel("Napięcie [V]")
+legend("Symulacja LTSpice", "Pomiary", 'Location','northwest')
+text(10,25,{"Częstotliwość kluczowania = 5,95 kHz", "Prąd obciążenia = 45,3mA ", "Napięcie wejściowe = 4V"}, 'FontSize', 14)
+
+
+%% 
+
+uout3 = [12.6022 8.50619	6.75854	5.87955	5.34381	4.99115	4.73962	4.55019	4.40117	4.2845];
+iout3 = 5:5:50;
+Uout_2 = [7.33, 7.03, 6.77, 6.55, 6.36, 6.17, 5.85, 5.6, 5.37, 4.63, 4.48, 4.26];
+Iout_2 = [13, 14, 15, 16, 17, 18, 20, 22, 24, 35, 40, 49];
+
+figure(5)
+plot(iout3,uout3, 'Marker', '+', 'LineStyle','-.', 'Color',clr(2), 'MarkerSize', 15)
+hold on
+plot(Iout_2, Uout_2,'Marker', 'o', 'LineStyle','-.', 'Color',clr(3), 'MarkerSize', 10 )
+
+grid on
+title("Charakterystyka napięcia wyjściowego od prądu obciążenia")
+xlabel("Prąd obciążenia [mA]")
+ylabel("Napięcie [V]")
+legend("Symulacja LTSpice", "Pomiary", 'Location','northwest')
+text(10,25,{"Częstotliwość kluczowania = 5,95 kHz", "Napięcie wejściowe = 4V"}, 'FontSize', 14)
+
+%%
+
+
 
 

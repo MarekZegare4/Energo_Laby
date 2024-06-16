@@ -1,0 +1,167 @@
+Circuit: * E:\studia\energoelektronika\Energo_Laby\stepup.asc
+
+Limiting rise time of source v2 to 1.68067e-006
+Limiting fall time of source v2 to 1.68067e-006
+ERROR: Node NC_01 is floating and connected to current source I1
+ERROR: Node NC_02 is floating and connected to current source I1
+
+Direct Newton iteration for .op point succeeded.
+.step wyp=0.1 vout=4.9
+.step wyp=0.15 vout=4.9
+.step wyp=0.2 vout=4.9
+.step wyp=0.25 vout=4.9
+.step wyp=0.3 vout=4.9
+.step wyp=0.35 vout=4.9
+.step wyp=0.4 vout=4.9
+.step wyp=0.45 vout=4.9
+.step wyp=0.5 vout=4.9
+.step wyp=0.55 vout=4.9
+.step wyp=0.6 vout=4.9
+.step wyp=0.65 vout=4.9
+.step wyp=0.7 vout=4.9
+.step wyp=0.75 vout=4.9
+.step wyp=0.8 vout=4.9
+.step wyp=0.85 vout=4.9
+.step wyp=0.9 vout=4.9
+.step wyp=0.1 vout=7
+.step wyp=0.15 vout=7
+.step wyp=0.2 vout=7
+.step wyp=0.25 vout=7
+.step wyp=0.3 vout=7
+.step wyp=0.35 vout=7
+.step wyp=0.4 vout=7
+.step wyp=0.45 vout=7
+.step wyp=0.5 vout=7
+.step wyp=0.55 vout=7
+.step wyp=0.6 vout=7
+.step wyp=0.65 vout=7
+.step wyp=0.7 vout=7
+.step wyp=0.75 vout=7
+.step wyp=0.8 vout=7
+.step wyp=0.85 vout=7
+.step wyp=0.9 vout=7
+.step wyp=0.1 vout=9.8
+.step wyp=0.15 vout=9.8
+.step wyp=0.2 vout=9.8
+.step wyp=0.25 vout=9.8
+.step wyp=0.3 vout=9.8
+.step wyp=0.35 vout=9.8
+.step wyp=0.4 vout=9.8
+.step wyp=0.45 vout=9.8
+.step wyp=0.5 vout=9.8
+.step wyp=0.55 vout=9.8
+.step wyp=0.6 vout=9.8
+.step wyp=0.65 vout=9.8
+.step wyp=0.7 vout=9.8
+.step wyp=0.75 vout=9.8
+.step wyp=0.8 vout=9.8
+.step wyp=0.85 vout=9.8
+.step wyp=0.9 vout=9.8
+.step wyp=0.1 vout=14
+.step wyp=0.15 vout=14
+.step wyp=0.2 vout=14
+.step wyp=0.25 vout=14
+.step wyp=0.3 vout=14
+.step wyp=0.35 vout=14
+.step wyp=0.4 vout=14
+.step wyp=0.45 vout=14
+.step wyp=0.5 vout=14
+.step wyp=0.55 vout=14
+.step wyp=0.6 vout=14
+.step wyp=0.65 vout=14
+.step wyp=0.7 vout=14
+.step wyp=0.75 vout=14
+.step wyp=0.8 vout=14
+.step wyp=0.85 vout=14
+.step wyp=0.9 vout=14
+
+
+Measurement: prond
+  step	AVG(i(v3)*1000)	FROM	TO
+     1	7.03514	0	0.0199998
+     2	15.7519	0	0.0199997
+     3	27.947	0	0.0199998
+     4	43.5497	0	0.0199997
+     5	62.7981	0	0.0199995
+     6	99.2694	0	0.0199997
+     7	14603.2	0	0.0199993
+     8	28880.4	0	0.0199992
+     9	40301	0	0.0199992
+    10	46702.5	0	0.0199992
+    11	51096.1	0	0.0199993
+    12	52808	0	0.0199995
+    13	52292.9	0	0.0199996
+    14	49517.2	0	0.0199996
+    15	44155.2	0	0.0199999
+    16	36701.9	0	0.0199997
+    17	26724.1	0	0.02
+    18	3.58029	0	0.0199998
+    19	8.03401	0	0.0199998
+    20	14.2664	0	0.0199997
+    21	22.3479	0	0.0199996
+    22	32.1933	0	0.0199995
+    23	43.5158	0	0.0199994
+    24	57.1392	0	0.0199993
+    25	71.9071	0	0.0199997
+    26	88.6104	0	0.0199992
+    27	12029	0	0.0199992
+    28	23708	0	0.0199993
+    29	31954.7	0	0.0199995
+    30	36821.8	0	0.0199996
+    31	38843.8	0	0.0199996
+    32	37352.3	0	0.0199999
+    33	32863.8	0	0.0199997
+    34	25016.3	0	0.02
+    35	2.1708	0	0.0199998
+    36	4.87703	0	0.0199999
+    37	8.6754	0	0.0199997
+    38	13.5366	0	0.0199997
+    39	19.4852	0	0.0199996
+    40	26.4694	0	0.0199994
+    41	34.8546	0	0.0199993
+    42	44.3006	0	0.0199993
+    43	54.0003	0	0.0199997
+    44	63.0401	0	0.0199996
+    45	72.9145	0	0.0199999
+    46	4627.82	0	0.0199997
+    47	16258	0	0.0199996
+    48	24630.4	0	0.0199996
+    49	28284.8	0	0.0199999
+    50	27747.3	0	0.0199997
+    51	22739.2	0	0.02
+    52	1.3679	0	0.0199998
+    53	3.07494	0	0.0199997
+    54	5.46294	0	0.0199997
+    55	8.62423	0	0.0199996
+    56	12.3571	0	0.0199998
+    57	16.7083	0	0.0199994
+    58	22.1489	0	0.0199993
+    59	28.1351	0	0.0199992
+    60	34.1622	0	0.0199998
+    61	39.9679	0	0.0199993
+    62	45.7833	0	0.0199993
+    63	52.6528	0	0.0199996
+    64	59.702	0	0.0199998
+    65	3471.05	0	0.0199996
+    66	14707.3	0	0.0199999
+    67	20075.5	0	0.0199997
+    68	19324.1	0	0.02
+
+
+Date: Sun Jun 16 13:30:02 2024
+Total elapsed time: 30.402 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 131494
+traniter = 131490
+tranpoints = 54303
+accept = 43353
+rejected = 10950
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 206 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 445 bytes object code size  0.1/0.2/[0.1]
+

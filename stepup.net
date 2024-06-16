@@ -1,0 +1,32 @@
+* E:\studia\energoelektronika\Energo_Laby\stepup.asc
+V1 N001 0 3.5 Rser=0
+C1 Vout 0 {C4}
+L1 N001 N002 {L3}
+D1 N002 Vout D
+V2 N003 0 PULSE(0 2m 0 0 0 {Ton} {T})
+S1 0 N002 N003 0 SW
+I1 NC_01 NC_02 {Iout}
+V3 Vout 0 {Vout}
+.model D D
+.lib C:\Users\user\Documents\LTspiceXVII\lib\cmp\standard.dio
+.PARAM F = 5.95k
+.PARAM T = 1/F
+.PARAM wyp = 0.164
+.PARAM Ton = wyp*T
+.PARAM Iout = 45.3m
+.PARAM Vout = 3
+.Model SW SW(Ron = 1m Roff = 100Meg Vt = 1m)
+.PARAM L4 = 1500u
+.PARAM L3 = 820u
+.PARAM L2 = 680u
+.PARAM L1 = 470u
+.PARAM C1 = 1u
+.PARAM C2 = 4.7u
+.PARAM C3 = 10u
+.PARAM C4 = 47u
+.step param wyp 0.1 0.9 0.05
+.step param Vout list 4.9 7 9.8 14
+.measure prond AVG I(V3)*1000
+.tran 0 0.1 0.08
+.backanno
+.end
